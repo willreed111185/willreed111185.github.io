@@ -1,0 +1,118 @@
+/*This is the comment for my Student Bio Css*/
+body{
+	background-image: url("../images/GPlayBkg.png");
+	position: fixed;
+	width: 960px;
+	overflow: auto;
+}
+div.topPage{
+	position:fixed;
+	top: 0px;
+	height: 100px;
+	background-color: white;
+	width: 100%;
+	border-bottom: solid lightgrey;
+}
+h1.nameline{
+	position: absolute;
+	bottom: -27px;
+	left: 150px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 40px;
+	height: auto;
+	width: auto;
+	padding:30px;
+	font-family: georgia;
+}
+ul.pagelinks{
+	height:20px;
+	position: absolute;
+	right: 200px;
+	bottom: 0px;
+}
+li.pagelinks{
+	display: inline;
+	font-family: Arial;
+	padding:10px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited{
+	color: #777777;
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
+div.centerPage{
+	position: fixed;
+	top: 150px;
+	width: 100%;
+}
+div.mainNote{
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	width: 650px;
+	background-color: white;
+	padding:10px;
+	overflow-y:auto;
+}
+h2.pageName{
+	color: #4aaaa5;
+	text-align: center;
+	font-family: georgia;
+	border-bottom: solid lightgrey;
+}
+p.textBody{
+	color:#777777;
+	font-family: Arial;
+}
+img.pageImg{
+	max-height:200px;
+	max-width: 45%;
+	float: left;
+	border: solid white;
+	border-width: 10px;
+}
+div.connectNote{
+	background-color: white;
+	position: absolute;
+	top: 40px;
+	right: 150px;
+	padding:10px;
+	width:270px;
+	height: 200px;
+}
+h2.connectNote{
+	color: #4aaaa5;
+	text-align: center;
+	font-family: georgia;
+	border-bottom: solid lightgrey;
+}
+img.connect{
+	width: 32%;
+	margin: 0px;
+	padding:0px;
+}
+div.bottomNote{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+	color:lightgrey;
+	border-top: solid #4aaaa5;
+	border-width: 10px;
+	font-family: georgia;
+}
+form.inputForm{
+	font-family: Arial;
+	padding-top: 20px;
+}

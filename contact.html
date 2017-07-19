@@ -1,0 +1,47 @@
+<!--This is a comment in HTML-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>WDR: Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="topPage">
+	<!--This is the top section and holds the Title as well as the links to the childPages-->
+		<h1 class="nameline">William Reed</h1>
+		<ul class="pagelinks">
+			<li class="pagelinks"><a href="index.html">About</a></li>
+			<li class="pagelinks"><a href="portfolio.html">Portfolio</a></li>
+			<li class="pagelinks"><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div class="centerPage">	<!--This is the center section and holds the meat of the page. Used to hold the content to a position regardless whats inside-->
+		<div class="mainNote">
+			<h2 class="pageName">Let's Connect!</h2>
+			<img class="pageImg" src="assets\images\connectPlaceholder.png" alt="200X200">
+			<form class="inputForm" action="mailto:william.reed.11@gmail.com" method="post" enctype="text/plain">
+				First name:<br>
+				<input type="text" name="firstname"><br>
+				Last name:<br>
+				<input type="text" name="lastname"><br>
+				Lets Talk:<br>
+				<input class="txtboxLong" type="text" name="message" placeholder="go on... tell me"><br>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		<div class="connectNote"> 	<!--This is the aside that holds the links to connect in various manners-->
+			<h2 class="connectNote">Lets Connect!</h2>
+			<a href="https://github.com/willreed111185" class="connect"><img class="connect" src="assets\images\github.png"></a>
+			<a href="https://www.linkedin.com/in/william-reed-232644a3/" class="connect"><img class="connect" src="assets\images\linkedin.png"></a>
+			<a href="https://stackoverflow.com/users/8198019/william-reed" class="connect"><img class="connect" src="assets\images\sof.png"></a>
+		</div>
+	</div>
+
+	<div class="bottomNote"> <!--This section is held to the bottom for pertinent info on every page-->
+		<p>&copy; Copyright 2017 William Reed</p>
+	</div>
+		
+</body>
+</html>
